@@ -1,0 +1,32 @@
+a = [34, -56.563, "Hello", True, None, [1, ["a", "b"], 3], 99, 100]
+
+print("Hello" in a)
+print(101 in a)
+print(3 in a)
+
+print(id(a))
+a.clear()
+print(id(a))
+print(a)
+a.append(23)
+a.append("Hello")
+a.append(101)
+a.append(-1.45)
+print(id(a))
+print(a)
+a.insert(1, "World")
+print(a)
+a[2] = 0
+print(a)
+del a[2]
+print(a)
+a.remove(101)
+print(a)
+a.append(55)
+a.append(-67)
+print(a)
+c = a.pop(2)
+print(a)
+print(c)
+a.pop()
+print(a)
