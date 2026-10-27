@@ -1,4 +1,4 @@
-class Auto:
+class Auto(object):
 
     def __init__(self, made, model, color, speed=300):
         self.made = made
