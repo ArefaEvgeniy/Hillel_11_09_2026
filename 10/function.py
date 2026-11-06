@@ -18,10 +18,16 @@ def get_data():
         ...
         return new_data
 
+    def get_temperature(data):
+        new_data = []
+        ...
+        return new_data
+
     data = {}
     data = get_processor(data)
     data = get_memory(data)
     data = get_processors(data)
+    data = get_temperature(data)
 
     return data
 
