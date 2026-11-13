@@ -23,7 +23,7 @@
 
 5) Testing / QA Automation
     - Testing Frameworks: PyTest, Unittest, Robot Framework
-    - UI Automation: Selenium, Playwright
+    - UI Automation: Selenium, Playwright, Selenium
     - Reporting: Allure, HTMLTestRunner
     - CI/CD: Jenkins, GitHub Actions, GitLab CI
 
